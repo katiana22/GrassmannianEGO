@@ -870,8 +870,7 @@ def ego(optimizationModel, reference, initParams, checkPrevious=True,
                     Y_surr, s2 = gp[0].predict(X_surr_, return_std=True)
 
             if hold > 0:
-                print('Hereeeeeeeeee')
-                print(Xs.shape, Xs.shape[0]-1, n_nearest_neighbors)
+              
                 x_knn, x_other, d_max = knn(Xs, Xs.shape[0]-1, n_nearest_neighbors)
                 X_knn_ = scaler.fit_transform(Xs[x_knn])
                 kernel = 1.0*RBF(length_scale=np.ones(np.size(Xs, 1))) + C()
