@@ -18,7 +18,7 @@ An optimal set of stochastic input parameters is identified which results in mat
 Grassmannian EGO is capable of bridging the scales between multiscale models and result in a significant reduction of the computational cost by allowing 
 continuum model simulations consistent with atomic-level detailed simulations.
 
-Details on the Grassmannian EGO methdology can be found here: 
+Details of the methdology can be found here: https://arxiv.org/abs/2103.00779
 
 ## Application
 
