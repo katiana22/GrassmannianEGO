@@ -20,7 +20,7 @@ Details of the methdology can be found here: https://arxiv.org/abs/2103.00779
 
 A graphical abstract of the proposed approach is provided below:
 
-<img src="Graphical-illustration.png" width="700">
+<img src="Graphical-illustration.png" width="800">
 
 
 ## Application
