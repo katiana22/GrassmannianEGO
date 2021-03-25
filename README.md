@@ -11,14 +11,17 @@ A novel coarse-grained methodology called **Grassmannian EGO** is employed.
 
 ## Methods
 Grassmannian EGO uses concepts from manifold learning 
-(nonlinear dimensionallity reduction), regression analysis (Gaussian Process regression) and Bayesian optimization (Efficient global optimization). 
-
-An optimal set of stochastic input parameters is identified which results in matching the behavior of the continuum model with the MD data. 
-
-Grassmannian EGO is capable of bridging the scales between multiscale models and result in a significant reduction of the computational cost by allowing 
+(nonlinear dimensionallity reduction), regression analysis (Gaussian Process regression) and Bayesian optimization (Efficient global optimization). An optimal set of stochastic input parameters is identified which results in matching the behavior of the continuum model with the MD data. Grassmannian EGO is capable of bridging the scales between multiscale models and result in a significant reduction of the computational cost by allowing 
 continuum model simulations consistent with atomic-level detailed simulations.
 
 Details of the methdology can be found here: https://arxiv.org/abs/2103.00779
+
+*Authors: Katiana Kontolati, Darius Alix-Williams, Nicholas M. Boffi, Michael L. Falk, Chris H. Rycroft, Michael D. Shields*
+
+A graphical abstract of the proposed approach is provided below:
+
+<img src="Graphical-illustration.png" width="700">
+
 
 ## Application
 
