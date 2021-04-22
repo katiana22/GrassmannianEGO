@@ -43,11 +43,7 @@ be found here: https://github.com/SURGroup/STZ
 
 ```
 pip install git+https://github.com/katiana22/GrassmannianEGO  
-cd GrassmannianEGO
-python install -r requirements.txt
 ```
-
-
 
 ______________________
 
