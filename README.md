@@ -3,6 +3,7 @@
 * [Methods](#methods)
 * [Application](#application)
 * [Contents](#contents)
+* [How to install](#how-to-install)
 
 ## General info
 
@@ -13,10 +14,6 @@ A novel coarse-grained methodology called **Grassmannian EGO** is employed.
 Grassmannian EGO uses concepts from manifold learning 
 (nonlinear dimensionallity reduction), regression analysis (Gaussian Process regression) and Bayesian optimization (Efficient global optimization). An optimal set of stochastic input parameters is identified which results in matching the behavior of the continuum model with the MD data. Grassmannian EGO is capable of bridging the scales between multiscale models and result in a significant reduction of the computational cost by allowing 
 continuum model simulations consistent with atomic-level detailed simulations.
-
-Details of the methdology can be found here: https://arxiv.org/abs/2103.00779
-
-*Authors: Katiana Kontolati, Darius Alix-Williams, Nicholas M. Boffi, Michael L. Falk, Chris H. Rycroft, Michael D. Shields*
 
 A graphical abstract of the proposed approach is provided below:
 
@@ -41,6 +38,23 @@ The algorithm is then employed to 'find' the parameters used to produce the cont
 
 * _shear_energy.cc_ - C++ code used to simulate the STZ model developed by the Rycroft Group @ Harvard. More information on how to compile and run this code can
 be found here: https://github.com/SURGroup/STZ
+
+## How to install
+
+```
+pip install git+https://github.com/katiana22/GrassmannianEGO  
+cd GrassmannianEGO
+python install -r requirements.txt
+```
+
+
+
+______________________
+
+Details of the methdology can be found here: https://arxiv.org/abs/2103.00779
+
+*Authors: Katiana Kontolati, Darius Alix-Williams, Nicholas M. Boffi, Michael L. Falk, Chris H. Rycroft, Michael D. Shields*
+
 
 
 ### Contact
