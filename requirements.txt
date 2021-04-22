@@ -1,0 +1,10 @@
+numpy
+scipy
+itertools
+matplotlib
+sklearn
+UQpy
+chaospy
+
+
+
