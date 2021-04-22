@@ -9,6 +9,8 @@
 
 This Git repository contains python and C++ codes for calibrating a stochastic PDE model based on data generated from an atomistic simulation. A novel coarse-grained methodology called **Grassmannian EGO** is employed (arXiv paper: https://arxiv.org/abs/2103.00779).
 
+*Authors: Katiana Kontolati, Darius Alix-Williams, Nicholas M. Boffi, Michael L. Falk, Chris H. Rycroft, Michael D. Shields*
+
 ## Methods
 Grassmannian EGO uses concepts from manifold learning 
 (nonlinear dimensionallity reduction), regression analysis (Gaussian Process regression) and Bayesian optimization (Efficient global optimization). An optimal set of stochastic input parameters is identified which results in matching the behavior of the continuum model with the MD data. Grassmannian EGO is capable of bridging the scales between multiscale models and result in a significant reduction of the computational cost by allowing 
@@ -49,12 +51,6 @@ pip install -r requirements.txt
 ```
 
 ______________________
-
-Details of the methdology can be found here: https://arxiv.org/abs/2103.00779
-
-*Authors: Katiana Kontolati, Darius Alix-Williams, Nicholas M. Boffi, Michael L. Falk, Chris H. Rycroft, Michael D. Shields*
-
-
 
 ### Contact
 For more information or questions please email me at: kontolati@jhu.edu
