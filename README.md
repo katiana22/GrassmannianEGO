@@ -7,7 +7,7 @@
 
 ## General info
 
-This Git repository contains python and C++ codes for calibrating a stochastic PDE model based on data generated from an atomistic simulation. A novel coarse-grained methodology called **Grassmannian EGO** is employed.
+This Git repository contains python and C++ codes for calibrating a stochastic PDE model based on data generated from an atomistic simulation. A novel coarse-grained methodology called **Grassmannian EGO** is employed (arXiv paper: https://arxiv.org/abs/2103.00779).
 
 ## Methods
 Grassmannian EGO uses concepts from manifold learning 
