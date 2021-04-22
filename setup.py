@@ -1,7 +1,7 @@
 import os
 import sys
 from setuptools import setup, find_packages
-PACKAGE_NAME = 'hamiltorch'
+PACKAGE_NAME = 'GrassmannianEGO'
 MINIMUM_PYTHON_VERSION = 3, 5
 
 
@@ -24,15 +24,14 @@ def read_package_variable(key):
 
 check_python_version()
 setup(
-    name='hamiltorch',
+    name='GrassmannianEGO',
     version=read_package_variable('__version__'),
-    description='A PyTorch-based library for Riemannian Manifold Hamiltonian Monte Carlo (RMHMC) and inference in Bayesian neural networks',
-    author='Adam D. Cobb, Atilim Gunes Baydin',
-    author_email='cobb.derek.adam@gmail.com',
+    description='Codes for implementing atomistic-informed calibration of partial differential equations (PDEs) with manifold learning and Bayesian optimization',
+    author='Katiana Kontolati, Darius Alix-Williams, Nicholas M. Boffi, Michael L. Falk, Chris H. Rycroft, Michael D. Shields',
+    author_email='kontolati@jhu.edu',
     packages=find_packages(),
-    install_requires=['torch>=1.6.0', 'numpy', 'termcolor'],
-    url='https://github.com/AdamCobb/hamiltorch',
-    classifiers=['Development Status :: 4 - Beta', 'License :: OSI Approved :: BSD License', 'Programming Language :: Python :: 3.5'],
-    license='BSD',
-    keywords='pytorch riemannian hamiltonian monte carlo bnn',
+    install_requires=['numpy', 'scipy', 'sklearn', 'matplotlib', 'itertools', 'UQpy', 'chaospy'],
+    url='https://github.com/katiana22/GrassmannianEGO',
+    classifiers=['Programming Language :: Python :: 3.5'],
+    keywords='Grassmannian manifold surrogates Bayesian optimization',
 )
