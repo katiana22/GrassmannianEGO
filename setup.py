@@ -4,14 +4,6 @@ from setuptools import setup, find_packages
 PACKAGE_NAME = 'GrassmannianEGO'
 MINIMUM_PYTHON_VERSION = 3, 5
 
-
-def check_python_version():
-    """Exit when the Python version is too low."""
-    if sys.version_info < MINIMUM_PYTHON_VERSION:
-        sys.exit("Python {}.{}+ is required.".format(*MINIMUM_PYTHON_VERSION))
-
-
-check_python_version()
 setup(
     name='GrassmannianEGO',
     version=read_package_variable('__version__'),
