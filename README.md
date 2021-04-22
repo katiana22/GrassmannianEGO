@@ -3,7 +3,7 @@
 * [Methods](#methods)
 * [Application](#application)
 * [Contents](#contents)
-* [How to install](#how-to-install)
+* [Clone this repo](#clone)
 
 ## General info
 
@@ -39,10 +39,12 @@ The algorithm is then employed to 'find' the parameters used to produce the cont
 * _shear_energy.cc_ - C++ code used to simulate the STZ model developed by the Rycroft Group @ Harvard. More information on how to compile and run this code can
 be found here: https://github.com/SURGroup/STZ
 
-## How to install
+## Clone this repo
 
 ```
-pip install git+https://github.com/katiana22/GrassmannianEGO  
+git clone https://github.com/katiana22/GrassmannianEGO.git
+cd GrassmannianEGO
+pip install -r requirements.txt
 ```
 
 ______________________
