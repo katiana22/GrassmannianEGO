@@ -42,7 +42,7 @@ be found here: https://github.com/SURGroup/STZ
 
 ## Clone
 
-To clone and use this repository, run the following commands in your terminal.
+To clone and use this repository, run the following terminal commands.
 
 ```
 git clone https://github.com/katiana22/GrassmannianEGO.git
