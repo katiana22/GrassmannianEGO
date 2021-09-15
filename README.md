@@ -50,6 +50,18 @@ cd GrassmannianEGO
 pip install -r requirements.txt
 ```
 
+## Citation
+
+If you find this GitHub repository useful for your work, please consider to cite this work:
+
+@article{kontolati2021manifold,
+  title={Manifold learning for coarse-graining atomistic simulations: Application to amorphous solids},  
+  author={Kontolati, Katiana and Alix-Williams, Darius and Boffi, Nicholas M and Falk, Michael L and Rycroft, Chris H and Shields, Michael D},  
+  journal={Acta Materialia},  
+  pages={117008},  
+  year={2021},  
+  publisher={Elsevier}
+}
 ______________________
 
 ### Contact
