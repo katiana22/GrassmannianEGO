@@ -54,6 +54,7 @@ pip install -r requirements.txt
 
 If you find this GitHub repository useful for your work, please consider citing this work:
 
+```
 @article{kontolati2021manifold,
   title={Manifold learning for coarse-graining atomistic simulations: Application to amorphous solids},  
   author={Kontolati, Katiana and Alix-Williams, Darius and Boffi, Nicholas M and Falk, Michael L and Rycroft, Chris H and Shields, Michael D},  
@@ -62,6 +63,7 @@ If you find this GitHub repository useful for your work, please consider citing 
   year={2021},  
   publisher={Elsevier}
 }
+```
 ______________________
 
 ### Contact
