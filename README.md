@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ## Citation
 
-If you find this GitHub repository useful for your work, please consider to cite this work:
+If you find this GitHub repository useful for your work, please consider citing this work:
 
 @article{kontolati2021manifold,
   title={Manifold learning for coarse-graining atomistic simulations: Application to amorphous solids},  
